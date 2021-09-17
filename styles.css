@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    
+    box-sizing: border-box;
+    
+}
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #b1aeae;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-around;
+     width: 100%;
+    height: 170px;
+    background:rgb(2, 47, 129);
+    align-items: center;
+    }
+.menu{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.title_numerologia{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.wave{
+    width: 100%;
+    height: 70px;
+    margin-top: -157px;
+
+}
+h4{
+    font-size: 16px;
+    color: white;
+    font-family: fantasy;
+}
+.menu a{
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 300;
+}
+h2{
+    font-size: 20px;
+}
+.menu a:hover{
+    text-decoration: overline 2px ;
+    transform: scaleY(1,1);
+    
+}
+.logo{
+    display: flex;
+    margin: auto;
+    justify-content: left;
+    animation: logo 60s linear infinite;
+    
+}
+
+.logo img{
+    width: 170px;
+}
+    
+
+.seccionNumerologia{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 40px;
+    align-items: center;
+    background: rgb(235, 235, 235);
+    border-radius: 5px;
+}
+.card img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 40px;
+    
+}
+.card h2{
+    text-align: center;
+}
+.container_tarot{
+    width: 75%;
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 60vh;
+}
+
+
+.card{
+    padding: 20px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 330px;
+    height: 360px;
+    background: rgb(203, 212, 209);
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 6px 6px 12px black;
+}
+.btns{
+    width: 280px;
+    height: 50px;
+    margin: 10px;
+    background:rgb(41, 41, 38);
+    color: white;
+    font-size: 15px;
+    align-items: center;
+    border-radius: 15px;
+    transition: ease 1s;
+}
+.btns:hover{
+    color: white;
+    background: rgb(255, 68, 68);
+    transform: scale(1.1);
+    
+}
+.parrafos{
+    width: 75%;
+    height: 220px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding: 40px;
+    align-items: center;
+    background: rgb(255, 68, 68);
+    border-radius: 5px;
+    
+}
+.card_parrafo{
+    display: flex;
+    
+    padding: 20px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 330px;
+    height: 150px;
+    background: rgb(112, 112, 106);
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 6px 6px 12px black;
+}
+.card_parrafo p{
+   margin: auto;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+@keyframes logo{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes logoIn{
+    0%{
+        display: none
+        
+    }
+  
+    100%{
+        
+        margin-top: 0px;
+    }
+}
